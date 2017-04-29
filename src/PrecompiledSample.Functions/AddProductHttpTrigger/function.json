@@ -1,0 +1,26 @@
+{
+  "scriptFile": "..\\bin\\PrecompiledSample.Functions.dll",
+  "entryPoint": "PrecompiledSample.Functions.AddProductHttpTrigger.Run",
+
+  "bindings": [
+    {
+      "authLevel": "function",
+      "name": "req",
+      "type": "httpTrigger",
+      "direction": "in"
+    },
+    {
+      "name": "$return",
+      "type": "http",
+      "direction": "out"
+    },
+    {
+      "type": "queue",
+      "name": "outputQueues",
+      "queueName": "product-queue",
+      "connection": "AzureWebJobsStorage",
+      "direction": "out"
+    }
+  ],
+  "disabled": false
+}

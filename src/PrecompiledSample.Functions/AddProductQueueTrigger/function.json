@@ -1,0 +1,15 @@
+﻿{
+  "scriptFile": "..\\bin\\PrecompiledSample.Functions.dll",
+  "entryPoint": "PrecompiledSample.Functions.AddProductQueueTrigger.Run",
+
+  "bindings": [
+    {
+      "name": "myQueueItem",
+      "type": "queueTrigger",
+      "direction": "in",
+      "queueName": "product-queue",
+      "connection": "AzureWebJobsStorage"
+    }
+  ],
+  "disabled": false
+}

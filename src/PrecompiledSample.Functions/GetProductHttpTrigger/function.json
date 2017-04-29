@@ -1,0 +1,19 @@
+{
+  "scriptFile": "..\\bin\\PrecompiledSample.Functions.dll",
+  "entryPoint": "PrecompiledSample.Functions.GetProductHttpTrigger.Run",
+
+  "bindings": [
+    {
+      "authLevel": "function",
+      "name": "req",
+      "type": "httpTrigger",
+      "direction": "in"
+    },
+    {
+      "name": "$return",
+      "type": "http",
+      "direction": "out"
+    }
+  ],
+  "disabled": false
+}
