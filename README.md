@@ -13,11 +13,11 @@ This provides sample codes for pre-compiled Azure Functions.
 ## More Readings ##
 
 * 한국어
-  * [Azure Functions 프리컴파일링 다시 보기](#)
+  * [Azure Functions 프리컴파일링 다시 보기](http://blog.aliencube.org/ko/2017/04/30/precompiled-azure-functions-revisited/)
 * English
   * [Testing Azure Functions in Emulated Environment with ScriptCs](https://blog.kloud.com.au/2016/09/05/testing-azure-functions-in-emulated-environment-with-scriptcs/)
   * [Testing Precompiled Azure Functions](https://blog.kloud.com.au/2017/01/20/testing-precompiled-azure-functions/)
-  * [Azure Functions Precompiling Revisited](#)
+  * [Azure Functions Precompiling Revisited](https://blog.kloud.com.au/2017/05/03/precompiled-azure-functions-revisited/)
 
 
 ## Contributions ##
